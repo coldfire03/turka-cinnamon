@@ -44,3 +44,4 @@ pardus-package-installer
 pardus-about
 pardus-dolunay-grub-theme
 pardus-installer
+--install-recommends
