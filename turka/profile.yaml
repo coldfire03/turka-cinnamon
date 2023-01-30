@@ -1,0 +1,21 @@
+name: turka
+hostname: turka
+distro: debian
+codename: yirmibir
+variant: minbase
+publisher: TurkaOS <https://turkaos.github.io/>
+label: TurkaOS_Linux
+application_id: TurkaOS
+airootfs_directory_pre: airootfs
+keyring_package: pardus-archive-keyring
+repository: https://depo.pardus.org.tr/pardus
+linux_args: locales=tr_TR.UTF-8,en_US.UTF-8 keyboard-layouts=tr username=muslim hostname=muslimos user-fullname=muslim noswap quiet
+#iso_merge: iso_merge
+grub_cfg: grub.cfg
+packages:
+ - packages.x86_64
+ - firmware.x86_64
+file_permissions:
+ - /etc/shadow|0:0:400
+customize_airootfs:
+ - customize-airootfs.sh
