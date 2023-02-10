@@ -22,5 +22,6 @@ echo 'deb http://depo.pardus.org.tr/guvenlik yirmibir main contrib non-free' >> 
 ## Mobilturka Wallpapers
 wget https://github.com/mobilturka/mt-wallpapers/releases/download/current/mt-wallpapers_1.0_all.deb
 wget https://github.com/muslimos/pardus-lightdm-greeter-blured/releases/download/current/pardus-lightdm-greeter_0.0.3_all.deb
+apt install pardus-software pardus-package-installer pardus-about pardus-dolunay-grub-theme
 
 apt install ./*.deb -yq --allow-downgrades
