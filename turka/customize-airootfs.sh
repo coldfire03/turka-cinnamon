@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
 
 cd /tmp
-wget https://depo.pardus.org.tr/pardus/pool/main/p/pardus-archive-keyring/pardus-archive-keyring_2021.1_all.deb
-apt install pardus-archive-keyring_2021.1_all.deb -y
-
-echo '### The Official Pardus Package Repositories ###' >> kaynak/etc/apt/sources.list
-echo 'deb http://depo.pardus.org.tr/pardus yirmibir main contrib non-free' >> kaynak/etc/apt/sources.list
-echo 'deb http://depo.pardus.org.tr/guvenlik yirmibir main contrib non-free' >> kaynak/etc/apt/sources.list
-apt update
 
 ### Drop no-recommend
 rm /etc/apt/apt.conf.d/01norecommend
@@ -20,6 +13,7 @@ apt install wget
 
 wget https://depo.pardus.org.tr/pardus/pool/main/p/pardus-archive-keyring/pardus-archive-keyring_2021.1_all.deb
 apt install pardus-archive-keyring_2021.1_all.deb -y
+apt update
 apt install pardus-software pardus-package-installer pardus-about pardus-dolunay-grub-theme
 
 ### 17g installer
