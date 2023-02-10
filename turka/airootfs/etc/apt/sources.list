@@ -2,3 +2,4 @@ deb http://depo.pardus.org.tr/pardus yirmibir main non-free contrib
 #deb-src http://depo.pardus.org.tr/pardus yirmibir main non-free contrib
 deb http://depo.pardus.org.tr/guvenlik yirmibir main non-free contrib
 #deb-src http://depo.pardus.org.tr/guvenlik yirmibir main non-free contrib
+https://deb.debian.org/debian testing main contrib non-free
