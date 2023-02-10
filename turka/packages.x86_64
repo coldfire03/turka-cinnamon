@@ -36,12 +36,4 @@ blueman
 islamic-menus
 firefox-esr
 cinnamon
-python3-dbus
-policykit-1-gnome
-dbus-x11
-pardus-software
-pardus-package-installer
-pardus-about
-pardus-dolunay-grub-theme
-pardus-installer
 --install-recommends
