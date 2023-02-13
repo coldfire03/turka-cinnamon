@@ -11,8 +11,6 @@ rm -rf /usr/share/backgrounds/gnome
 ### Install packages
 apt install wget
 
-apt install pardus-software pardus-package-installer pardus-about pardus-dolunay-grub-theme -y
-
 ### 17g installer
 #wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
 
