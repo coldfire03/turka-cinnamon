@@ -35,4 +35,9 @@ system-config-printer
 simple-scan
 blueman
 cinnamon
+pardus-software
+pardus-installer
+pardus-package-installer
+pardus-about
+pardus-dolunay-grub-theme
 --install-recommends
