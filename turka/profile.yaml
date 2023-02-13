@@ -1,14 +1,14 @@
 name: turka
 hostname: turka
 distro: debian
-codename: testing
+codename: yirmibir
 variant: minbase
 publisher: TurkaOS <https://turkaos.github.io/>
 label: TurkaOS_Linux
 application_id: TurkaOS
 airootfs_directory_pre: airootfs
-keyring_package: debian-keyring
-repository: http://deb.debian.org/debian
+keyring_package: pardus-archive-keyring
+repository: http://depo.pardus.org.tr/pardus
 linux_args: locales=tr_TR.UTF-8,en_US.UTF-8 keyboard-layouts=tr username=muslim hostname=muslimos user-fullname=muslim noswap quiet
 #iso_merge: iso_merge
 grub_cfg: grub.cfg
