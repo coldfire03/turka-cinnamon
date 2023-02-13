@@ -9,7 +9,7 @@ lightdm-gtk-greeter
 gnome-terminal
 papirus-icon-theme
 arc-theme
-orchis-gtk-theme
+#orchis-gtk-theme
 pavucontrol
 pulseaudio
 ca-certificates
