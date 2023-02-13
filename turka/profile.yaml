@@ -1,6 +1,6 @@
 name: turka
 hostname: turka
-distro: debian
+distro: pardus
 codename: yirmibir
 variant: minbase
 publisher: TurkaOS <https://turkaos.github.io/>
