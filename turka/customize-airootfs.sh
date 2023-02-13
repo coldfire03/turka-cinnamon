@@ -11,10 +11,7 @@ rm -rf /usr/share/backgrounds/gnome
 ### Install packages
 apt install wget
 
-wget https://depo.pardus.org.tr/pardus/pool/main/p/pardus-archive-keyring/pardus-archive-keyring_2021.1_all.deb
-apt install pardus-archive-keyring_2021.1_all.deb -y
-apt update
-apt install pardus-software pardus-package-installer pardus-about pardus-dolunay-grub-theme
+apt install pardus-software pardus-package-installer pardus-about pardus-dolunay-grub-theme -y
 
 ### 17g installer
 #wget https://github.com/muslimos/17g-installer/releases/download/current/17g-installer_1.0_all.deb
